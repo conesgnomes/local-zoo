@@ -7,9 +7,12 @@ import { Animal } from './animal.model';
     <div class="animal-edit">
       <div *ngIf="childSelectedAnimal">
         <h3>Edit details for: <span>{{childSelectedAnimal.species}}</span></h3>
-        <input [(ngModel)]="childSelectedAnimal.name" type="text" placeholder="Name">
-        <input [(ngModel)]="childSelectedAnimal.age" type="number" placeholder="Age">
-        <input [(ngModel)]="childSelectedAnimal.caretakers" type="number" placeholder="Caretakers">
+        <label>Name:</label>
+        <input [(ngModel)]="childSelectedAnimal.name" type="text">
+        <label>Age:</label>
+        <input [(ngModel)]="childSelectedAnimal.age" type="number">
+        <label>Caretakers:</label>
+        <input [(ngModel)]="childSelectedAnimal.caretakers" type="number">
         <button (click)="doneButtonClicked()">Done</button>
       </div>
     </div>

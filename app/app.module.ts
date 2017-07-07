@@ -5,6 +5,7 @@ import { FormsModule }  from '@angular/forms';
 import { AddAnimalComponent } from './add-animal.component';
 import { AnimalListComponent } from './animal-list.component';
 import { EditAnimalComponent } from './edit-animal.component';
+import { AgeSortPipe } from './age-sort.pipe';
 
 @NgModule({
   imports: [ BrowserModule,
@@ -12,7 +13,8 @@ import { EditAnimalComponent } from './edit-animal.component';
   declarations: [ AppComponent,
                 AddAnimalComponent,
                 AnimalListComponent,
-                EditAnimalComponent ],
+                EditAnimalComponent,
+                AgeSortPipe],
   bootstrap:    [ AppComponent ]
 })
 
