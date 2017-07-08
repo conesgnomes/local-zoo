@@ -1,0 +1,22 @@
+.header {
+  position: relative;
+  .background {
+  background-image: url("../../img/hero-bg.png");
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  }
+  .brand-group {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translateX(-50%);
+    img {
+      height: 50px;
+      filter: invert(100%);
+    }
+  }
+}

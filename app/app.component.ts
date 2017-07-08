@@ -4,8 +4,14 @@ import { Animal } from './animal.model';
 @Component({
   selector: 'app-root',
   template: `
-    <h1>Zoocyclopedia</h1>
-    <h2>Keep a paw on your furry friends</h2>
+    <div class="header">
+      <div class="background">
+        <div class="brand-group">
+          <img src="../img/elephant.png">
+          <h1>Zoocyclopedia</h1>
+        </div>
+      </div>
+    </div>
     <add-animal (addAnimalSender)="addAnimal($event)"></add-animal>
     <animal-list [childAnimalList]="masterAnimalList" (clickSender)="editAnimal($event)"></animal-list>
     <edit-animal [childSelectedAnimal]="selectedAnimal" (doneButtonClickedSender)="finishedEditing()"></edit-animal>

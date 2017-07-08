@@ -1,5 +1,21 @@
-h1 {
-  font-family: 'Delius Swash Caps', cursive;
-  text-transform: lowercase;
-  color: red;
+* {
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.header {
+  .brand-group {
+    h1 {
+      font-family: 'Delius Unicase', cursive;
+      font-size: 1.7em;
+      color: white;
+    }
+  }
+}
+
+.add-animal {
+  button {
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: lowercase;
+  }
 }
