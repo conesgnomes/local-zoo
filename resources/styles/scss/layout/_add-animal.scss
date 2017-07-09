@@ -25,7 +25,7 @@
     input {
       background: transparent;
       height: 70px;
-      width: 400px;
+      width: 300px;
       text-align: center;
       border-bottom: solid white 3px;
       border-top: none;
@@ -34,9 +34,6 @@
       &:focus {
       outline: none;
       }
-      // &::-webkit-input-placeholder {
-      //   color: white;
-      // }
     }
     button {
       margin-top: 20px;

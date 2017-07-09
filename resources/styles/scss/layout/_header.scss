@@ -11,7 +11,16 @@
     display: flex;
     align-items: center;
     position: absolute;
-    left: 825px;
+    left: 200px;
+    @media #{$breakpoint-medium} {
+      left: 460px;
+    }
+    @media #{$breakpoint-large} {
+      left: 590px;
+    }
+    @media #{$breakpoint-xlarge} {
+      left: 835px;
+    }
     top: 10px;
     img {
       height: 40px;

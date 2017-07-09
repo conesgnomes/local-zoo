@@ -35,3 +35,73 @@
     }
   }
 }
+
+.animal-list-group {
+  .animal-filter {
+    select {
+      font-family: 'Delius Unicase', cursive;
+      text-transform: lowercase;
+      font-size: .8em;
+      color: white;
+    }
+  }
+}
+.animal-card {
+  p {
+    font-family: 'Delius Unicase', cursive;
+    text-transform: lowercase;
+    font-size: 1.2em;
+    color: white;
+    span {
+      font-family: 'Delius Unicase', cursive;
+      text-transform: uppercase;
+      font-size: 1.5em;
+      color: white;
+    }
+  }
+  button {
+    font-family: 'Delius Unicase', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1em;
+    color: white;
+  }
+}
+
+.animal-edit {
+  h3 {
+    font-family: 'Delius Unicase', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    span {
+      font-family: 'Delius Unicase', cursive;
+      text-transform: uppercase;
+      font-size: 2em;
+    }
+  }
+  label {
+    font-family: 'Delius Unicase', cursive;
+    text-transform: lowercase;
+    text-align: center;
+    font-size: 1em;
+    color: white;
+  }
+  button {
+    font-family: 'Delius Unicase', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1em;
+    color: white;
+  }
+  input {
+    font-family: 'Delius Unicase', cursive;
+    text-transform: lowercase;
+    font-size: 1.5em;
+    color: white;
+    &::-webkit-input-placeholder {
+      color: #b6acb7;
+    }
+  }
+}
