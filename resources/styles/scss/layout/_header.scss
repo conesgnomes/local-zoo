@@ -11,11 +11,10 @@
     display: flex;
     align-items: center;
     position: absolute;
-    left: 50%;
-    top: 30%;
-    transform: translateX(-50%);
+    left: 825px;
+    top: 10px;
     img {
-      height: 50px;
+      height: 40px;
       filter: invert(100%);
     }
   }

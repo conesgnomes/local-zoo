@@ -1,12 +1,12 @@
 * {
-  font-family: 'Ubuntu Condensed', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .header {
   .brand-group {
     h1 {
       font-family: 'Delius Unicase', cursive;
-      font-size: 1.7em;
+      font-size: 1.2em;
       color: white;
     }
   }
@@ -14,8 +14,24 @@
 
 .add-animal {
   button {
+    font-family: 'Delius Unicase', cursive;
+    text-transform: uppercase;
     text-align: center;
-    font-size: 1.5em;
-    text-transform: lowercase;
+    font-size: 2em;
+    color: white;
+  }
+  .animal-add {
+    input {
+      font-family: 'Delius Unicase', cursive;
+      text-transform: lowercase;
+      font-size: 1.5em;
+      color: white;
+      &::-webkit-input-placeholder {
+        color: #b6acb7;
+      }
+    }
+    button {
+      font-size: 1.5em;
+    }
   }
 }
